@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="5-bedroom all-ensuite house for sale in Kamakis Mutonya, 3 km from Eastern Bypass.">
+  <title>Properties for Sale | Kamakis 5 Bedroom House</title>
+  <style>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1f2937;
+      background: #f7f7f7;
+      line-height: 1.6;
+    }
+    header {
+      background: #17324d;
+      color: white;
+      padding: 18px 6%;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 10px rgba(0,0,0,.12);
+    }
+    nav {
+      max-width: 1150px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+    .brand { font-size: 1.25rem; font-weight: 700; }
+    nav a { color: white; text-decoration: none; margin-left: 18px; font-size: .95rem; }
+    .hero {
+      background: linear-gradient(135deg, #17324d, #2d587c);
+      color: white;
+      padding: 75px 6%;
+    }
+    .hero-inner { max-width: 1150px; margin: auto; }
+    .tag {
+      display: inline-block;
+      background: rgba(255,255,255,.15);
+      padding: 7px 12px;
+      border-radius: 20px;
+      font-size: .9rem;
+      margin-bottom: 15px;
+    }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; margin: 0 0 18px; }
+    .hero p { max-width: 700px; font-size: 1.1rem; }
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 13px 22px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: 700;
+      background: white;
+      color: #17324d;
+    }
+    section { padding: 55px 6%; }
+    .container { max-width: 1150px; margin: auto; }
+    h2 { font-size: 2rem; margin-top: 0; }
+    .gallery {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 12px;
+      margin-top: 25px;
+    }
+    .photo {
+      min-height: 210px;
+      background: #d9dee3;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #56616b;
+      text-align: center;
+      padding: 20px;
+      font-weight: 600;
+    }
+    .photo:first-child { min-height: 435px; grid-row: span 2; }
+    .details {
+      background: white;
+      border-radius: 12px;
+      padding: 28px;
+      margin-top: 30px;
+      box-shadow: 0 5px 22px rgba(0,0,0,.07);
+    }
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin: 20px 0 30px;
+    }
+    .fact {
+      background: #f1f5f8;
+      padding: 18px;
+      border-radius: 9px;
+      text-align: center;
+    }
+    .fact strong { display: block; font-size: 1.15rem; color: #17324d; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px 30px;
+      padding: 0;
+      list-style: none;
+    }
+    .features li::before { content: "✓"; color: #17324d; font-weight: 700; margin-right: 10px; }
+    .price {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #17324d;
+    }
+    .contact {
+      background: #17324d;
+      color: white;
+      text-align: center;
+    }
+    .contact h2 { color: white; }
+    .contact .btn { margin: 8px; }
+    footer {
+      background: #102538;
+      color: #cbd5df;
+      text-align: center;
+      padding: 22px;
+      font-size: .9rem;
+    }
+    @media (max-width: 760px) {
+      nav { align-items: flex-start; }
+      nav div:last-child { display: none; }
+      .gallery { grid-template-columns: 1fr; }
+      .photo, .photo:first-child { min-height: 220px; grid-row: auto; }
+      .facts { grid-template-columns: repeat(2, 1fr); }
+      .features { grid-template-columns: 1fr; }
+      section { padding: 40px 5%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand">Your Property Name</div>
+    <div>
+      <a href="#property">Property</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="tag">PROPERTY FOR SALE • KAMAKIS</span>
+      <h1>5-Bedroom All-Ensuite House</h1>
+      <p>Modern 5-bedroom home in Kamakis Mutonya / Vision Valley Estate, approximately 3 km from Eastern Bypass.</p>
+      <a class="btn" href="#property">View Property</a>
+    </div>
+  </section>
+
+  <section id="property">
+    <div class="container">
+      <h2>Featured Property</h2>
+
+      <div class="gallery">
+        <div class="photo">MAIN HOUSE PHOTO<br><small>Replace with your best exterior photo</small></div>
+        <div class="photo">LIVING ROOM PHOTO</div>
+        <div class="photo">KITCHEN PHOTO</div>
+        <div class="photo">BEDROOM PHOTO</div>
+        <div class="photo">COMPOUND / PARKING PHOTO</div>
+      </div>
+
+      <div class="details">
+        <div class="price">KSh 14 Million <small>(Negotiable)</small></div>
+        <p><strong>Location:</strong> Kamakis Mutonya Area, Vision Valley Estate — approximately 3 km from Eastern Bypass.</p>
+
+        <div class="facts">
+          <div class="fact"><strong>5</strong>Bedrooms</div>
+          <div class="fact"><strong>All</strong>Ensuite</div>
+          <div class="fact"><strong>50 × 100</strong>Plot</div>
+          <div class="fact"><strong>85%</strong>Complete</div>
+        </div>
+
+        <h3>Key Features</h3>
+        <ul class="features">
+          <li>Modern 5-bedroom all-ensuite design</li>
+          <li>Spacious living room</li>
+          <li>Study / office space</li>
+          <li>Modern kitchen and dining area</li>
+          <li>Ample parking</li>
+          <li>Flat-roof contemporary design</li>
+          <li>Located in a gated community</li>
+          <li>Ready title deed</li>
+        </ul>
+
+        <p><strong>Also available:</strong> Both houses together at KSh 28 Million (negotiable).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I help buyers find residential properties for sale in and around the greater Nairobi area, including Kamakis, Ruiru, Kiambu and Juja. Browse the available properties and get in touch to arrange a viewing.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Interested in This Property?</h2>
+      <p>Contact me for more information, photos, pricing details and viewing arrangements.</p>
+
+      <!-- Replace the number below with your WhatsApp number in international format -->
+      <a class="btn" href="https://wa.me/2547XXXXXXXX">WhatsApp Me</a>
+
+      <!-- Replace the number below with your phone number -->
+      <a class="btn" href="tel:+2547XXXXXXXX">Call Me</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 Your Property Name • Properties for Sale
+</footer>
+
+</body>
+</html>
